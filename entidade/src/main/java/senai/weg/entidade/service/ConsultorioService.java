@@ -3,8 +3,8 @@ package senai.weg.entidade.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import senai.weg.entidade.dto.ConsultorioRequestDto;
-import senai.weg.entidade.dto.ConsultorioResponseDto;
+import senai.weg.entidade.dto.request.ConsultorioRequestDto;
+import senai.weg.entidade.dto.response.ConsultorioResponseDto;
 import senai.weg.entidade.entity.Consultorio;
 import senai.weg.entidade.mapper.ConsultorioMapper;
 import senai.weg.entidade.repository.ConsultorioRepository;

@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import senai.weg.entidade.dto.ConsultorioRequestDto;
-import senai.weg.entidade.dto.ConsultorioResponseDto;
+import senai.weg.entidade.dto.request.ConsultorioRequestDto;
+import senai.weg.entidade.dto.response.ConsultorioResponseDto;
 import senai.weg.entidade.service.ConsultorioService;
 
 import java.util.List;

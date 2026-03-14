@@ -2,8 +2,8 @@ package senai.weg.entidade.mapper;
 
 
 import org.springframework.stereotype.Component;
-import senai.weg.entidade.dto.ConsultorioRequestDto;
-import senai.weg.entidade.dto.ConsultorioResponseDto;
+import senai.weg.entidade.dto.request.ConsultorioRequestDto;
+import senai.weg.entidade.dto.response.ConsultorioResponseDto;
 import senai.weg.entidade.entity.Consultorio;
 
 import java.util.List;

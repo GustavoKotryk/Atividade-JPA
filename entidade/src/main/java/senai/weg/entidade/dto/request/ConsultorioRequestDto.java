@@ -1,31 +1,21 @@
-package senai.weg.entidade.dto;
+package senai.weg.entidade.dto.request;
 
-public class ConsultorioResponseDto {
-    private Long id;
+public class ConsultorioRequestDto {
     private String nome;
     private String endereco;
     private String telefone;
     private String email;
     private String cnpj;
 
-    public ConsultorioResponseDto() {
+    public ConsultorioRequestDto() {
     }
 
-    public ConsultorioResponseDto(Long id, String nome, String endereco, String telefone, String email, String cnpj) {
-        this.id = id;
+    public ConsultorioRequestDto(String nome, String endereco, String telefone, String email, String cnpj) {
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
         this.email = email;
         this.cnpj = cnpj;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getNome() {
